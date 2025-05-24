@@ -1,0 +1,25 @@
+# Core FastAPI stack
+fastapi[all]
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pydantic
+pydantic-settings
+python-dotenv
+python-multipart
+
+# AI stack - låt pip lösa kompatibla versioner
+openai
+langchain
+langchain-openai
+langchain-community
+langgraph
+
+# Vector database
+chromadb
+
+# Utilities
+python-dateutil
+pytz
+pandas
+numpy
